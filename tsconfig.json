@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "strictBindCallApply": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node", "vite/client"],
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "files": ["src/env.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.vue", "src/**/*.d.ts", "src/env.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}

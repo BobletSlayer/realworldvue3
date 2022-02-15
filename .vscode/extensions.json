@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar",
+    "esbenp.prettier-vscode",
+    "pkief.material-icon-theme",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.path-intellisense",
+    "antfu.iconify",
+    "ms-edgedevtools.vscode-edge-devtools",
+    "vuetifyjs.vuetify-vscode"
+  ]
+}
