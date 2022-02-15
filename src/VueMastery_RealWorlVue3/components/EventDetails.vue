@@ -10,7 +10,6 @@
     },
   });
 
-  console.log(props.id);
   const event = ref<IEvent>();
 
   EventService.getEvent(props.id)

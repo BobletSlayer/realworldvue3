@@ -5,7 +5,6 @@
       type: Object,
     },
   });
-  console.log(props.event);
 </script>
 
 <template>
